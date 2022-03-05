@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block main %}
+  <div class="secure-container">
+    <h1>Secure Page</h1>
+    {% include 'flash_messages.html' %}
+    <p>Welcome to the secure page which is only accessable after login</p>
+  </div>
+{% endblock %}
